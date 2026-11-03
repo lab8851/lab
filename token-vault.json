@@ -1,0 +1,10 @@
+{
+    "version": "1.0.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://get.tokenvault.quickinstall.sh/token-vault.zip",
+            "hash": "AC3756EA4274371DD45314D6C326B390D502FE57EA7029B5624863EFECF16C6A"
+        }
+    },
+    "bin": "Wire.exe"
+}
