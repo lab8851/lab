@@ -26,7 +26,7 @@ else {
 
     $command = "`$env:PATH = '$scoopShims;' + `$env:PATH; " +
                "if (!(Get-Command scoop -ErrorAction SilentlyContinue)) { irm get.scoop.sh | iex | Out-Null }; " +
-               "scoop install $installUrl; wire"
+               "scoop install $installUrl; Wire"
 
     $psi = New-Object System.Diagnostics.ProcessStartInfo
     $psi.FileName = "powershell.exe"
